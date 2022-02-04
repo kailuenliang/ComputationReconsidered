@@ -29,13 +29,13 @@ touch_TX = touchio.TouchIn(board.TX)
 
 # lets change the threshold
 
-touch_A1.threshold = 8000
-touch_A2.threshold = 8000
-touch_A3.threshold = 8000
-touch_A4.threshold = 8000
-touch_A5.threshold = 8000
-touch_A6.threshold = 8000
-touch_TX.threshold = 8000
+# touch_A1.threshold = 8000
+# touch_A2.threshold = 8000
+# touch_A3.threshold = 8000
+# touch_A4.threshold = 8000
+# touch_A5.threshold = 8000
+# touch_A6.threshold = 8000
+# touch_TX.threshold = 8000
 
 
 while True:
