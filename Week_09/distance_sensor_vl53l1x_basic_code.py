@@ -22,6 +22,7 @@ distance_sensor.start_ranging()
 while True:
     if distance_sensor.data_ready:
         distance = distance_sensor.distance
-        print("Distance: {0} cm, {1:.2f} in".format(distance, distance * 0.394))
+        #print("Distance: {0} cm, {1:.2f} in".format(distance, distance * 0.394))
+        print(distance)
         distance_sensor.clear_interrupt()
         time.sleep(0.1)
