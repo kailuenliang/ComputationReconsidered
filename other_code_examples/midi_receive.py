@@ -89,17 +89,4 @@ while True:
                 pixels[i] = OFF
 
 
-        #  if a PitchBend message...
-        if isinstance(msg, PitchBend):
-            string_msg = 'PitchBend'
-            #  get value of pitchbend
-            string_val = str(msg.pitch_bend)
-        #  if a CC message...
-        if isinstance(msg, ControlChange):
-            string_msg = 'ControlChange'
-            #  get CC message number
-            string_val = str(msg.control)
-        #  update text area with message type and value of message as strings
-        #text_area.text = (string_msg + " " + string_val)
 
-        print(string_msg, string_val);
